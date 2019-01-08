@@ -20,7 +20,7 @@ public class DiputarFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        View view = new View(Pind);
+        View view;
 
         Pindah(View view);
     }

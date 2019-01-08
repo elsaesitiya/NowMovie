@@ -1,11 +1,13 @@
 package com.example.elsa.nowmovie.view;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.design.widget.BottomNavigationView;
 import android.support.v4.app.Fragment;
 import android.support.v7.app.AppCompatActivity;
 import android.view.MenuItem;
+import android.view.View;
 
 import com.example.elsa.nowmovie.R;
 
@@ -25,6 +27,8 @@ public class MainActivity extends AppCompatActivity implements BottomNavigationV
         // beri listener pada saat item/menu bottomnavigation terpilih
         bottomNavigationView.setOnNavigationItemSelectedListener(this);
     }
+
+
 
     // method untuk load fragment yang sesuai
     private boolean loadFragment(Fragment fragment) {
@@ -58,4 +62,7 @@ public class MainActivity extends AppCompatActivity implements BottomNavigationV
 
         return loadFragment(fragment);
     }
+
+
+
 }
